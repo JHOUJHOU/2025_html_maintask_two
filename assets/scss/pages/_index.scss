@@ -1,3 +1,41 @@
-.index-title {
-  font-size: 100px;
+.label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.productList {
+  display: flex;
+  justify-content: space-between;
+}
+.asideMenu {
+  width: 196px;
+}
+.asideMenu-item:hover {
+  color: #57A203;
+}
+.contentList {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1076px;
+}
+.content li {
+  flex: 0 0 calc(33.333% - 16px);
+  /* flex-grow  flex-shrink flex-basis */
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-item:hover {
+  background: #F8F9FA;
+}
+.pagination-item:active {
+  background: #C0FA73;
 }

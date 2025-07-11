@@ -4,13 +4,123 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <title>第二堂 - 品牌產品列表頁｜網頁切版專題班｜2025 夏季</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <%- include('./layout/header'); -%>
+    
+    <section class="container mb-24">
+      <div class="label">
+        <p class="neutral-600 mr-12">首頁</p>
+        <p class="neutral-300 mr-12">/</p>
+        <p class="fw-700">所有商品</p>
+      </div>
+    </section>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <section class="container mb-48">
+      <h1 class="fw-700 pt-7 pb-7 fz-28 mb-24">所有商品</h1>
+
+      <div class="productList mb-32">
+        <ul class="asideMenu mr-24">
+          <li class="mb-20"><a class="asideMenu-item primary-400 pt-8 pb-8" href="#">所有商品</a></li>
+          <li class="mb-20"><a class="asideMenu-item pt-8 pb-8" href="#">慢跑鞋</a></li>
+          <li class="mb-20"><a class="asideMenu-item pt-8 pb-8" href="#">滑板鞋</a></li>
+          <li class="mb-20"><a class="asideMenu-item pt-8 pb-8" href="#">厚底鞋</a></li>
+          <li><a class="asideMenu-item pt-8 pb-8" href="#">限定 / 聯名企劃</a></li>
+        </ul>
+
+        <div class="contentList">
+          <ul class="content">
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/image.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">PLATFORM 404</h2>
+                <p>NT$2,600</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-1.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">PLATFORM 404</h2>
+                <p>NT$2,600</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-2.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">VM001</h2>
+                <p>NT$2,600</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-3.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">Melty Kiss</h2>
+                <p>NT$4,000</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-4.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">BOOMBLOK</h2>
+                <p>NT$3,200</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-5.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">BOOMBLOK</h2>
+                <p>NT$3,200</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-6.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">R:UNER</h2>
+                <p>NT$4,000</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-7.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">Sugar Snap</h2>
+                <p>NT$4,000</p>
+              </a>
+            </li>
+            <li class="mb-48">
+              <a href="./product_details.html">
+                <img class="mb-12" src="/assets/images/product-8.png" alt="PLATFORM 404">
+                <h2 class="fw-700 mb-4">Neofoam</h2>
+                <p>NT$4,000</p>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="pagination">
+            <li class="neutral-500 mr-12 pt-10 pb-10 pl-10 pr-10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+              </svg>
+            </li>
+            <li class="pagination-item mr-8 pt-8 pb-8 pl-15 pr-15">1</li>
+            <li class="fw-400 pagination-item mr-8 pt-8 pb-8 pl-15 pr-15">2</li>
+            <li class="fw-400 pagination-item mr-8 pt-8 pb-8 pl-15 pr-15">3</li>
+            <li class="fw-400 pagination-item mr-8 pt-8 pb-8 pl-15 pr-15">...</li>
+            <li class="fw-400 pagination-item pt-8 pb-8 pl-15 pr-15">10</li>
+            <li class="fw-400 ml-12 pt-10 pb-10 pl-10 pr-10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
 
     <%- include('./layout/footer'); -%>
 

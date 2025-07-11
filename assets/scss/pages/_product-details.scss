@@ -1,0 +1,98 @@
+.product-details {
+  display: flex;
+}
+.product-details-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.product-details-img li {
+    flex: 0 0 calc((100% - 16px) / 2);
+}
+.product-label {
+  display: flex;
+  align-items: center;
+  
+}
+.product-description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.product-colorSelect {
+  display: flex;
+  align-items: center;
+}
+.product-colorSelect-img {
+  width: 64px;
+  height: 64px;
+}
+.product-sizeList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-size {
+  width: 160px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  &:hover {
+    border: 1px solid #6C757D;
+  }
+  &:focus {
+    border: 1px solid #212529;
+  }
+}
+.product-btnList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productCheckBtn {
+  padding: 12px 82px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #212529;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #212529;
+}
+.productCheckBtn:hover {
+  background: #212529;
+  color: #fff;
+}
+.productCheckBtn.active .productCheckBtnIcon svg {
+  fill: #212529 !important; 
+}
+.productCheckBtn.active:hover .productCheckBtnIcon svg {
+  fill: #fff !important;
+}
+.productCheckOrderBtn {
+  padding: 12px 82px;
+  border-radius: 8px;
+  background: #212529;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.productCheckOrderBtn:hover {
+  background: #FFFFFF;
+  color: #212529;
+}
+.productCheckOrderBtn:active {
+  background: #FFFFFF;
+  color: #212529;
+}
+.productCheckOrderBtn:active .productCheckOrderBtnIcon svg {
+  fill: #fff !important; 
+}
+.productCheckOrderBtn:active:hover .productCheckOrderBtnIcon svg {
+  fill: #212529 !important;
+}
+.moreLikeList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

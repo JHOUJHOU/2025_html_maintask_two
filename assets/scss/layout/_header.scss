@@ -1,4 +1,37 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo {
+  position: relative;
+  z-index: 2;
+}
+.logo-circle {
+  background: #C0FA73;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 85%;
+  z-index: -1;
+}
+.mneu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-item:hover {
+  color: #57A203;
+}
+.footerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
